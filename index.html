@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casamento Anny & Leonardo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #ffffff;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #0a1a3a;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .date-location {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    nav {
+      background-color: #f1c40f;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    nav a {
+      color: #0a1a3a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .rsvp input, .rsvp textarea {
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 0.5rem;
+    }
+    footer {
+      background-color: #0a1a3a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Anny & Leonardo</h1>
+    <p class="date-location">21 de abril de 2027 - Local a confirmar</p>
+  </header>
+
+  <nav>
+    <a href="#rsvp">Confirme Presença</a>
+    <a href="#presentes">Presentes</a>
+    <a href="#galeria">Galeria</a>
+  </nav>
+
+  <section id="rsvp">
+    <h2>Confirmação de Presença</h2>
+    <form class="rsvp">
+      <input type="text" placeholder="Seu nome" required>
+      <input type="number" placeholder="Número de acompanhantes" required>
+      <textarea placeholder="Deixe uma mensagem opcional"></textarea>
+      <button type="submit">Confirmar</button>
+    </form>
+  </section>
+
+  <section id="presentes">
+    <h2>Lista de Presentes / Cotas de Lua de Mel</h2>
+    <p>Você pode nos ajudar com presentes ou contribuindo para nossa lua de mel dos sonhos!</p>
+    <ul>
+      <li>Pix para contribuição: <strong>pix.annyleonardo@gmail.com</strong></li>
+      <li>Lista em loja X: <a href="#">Clique aqui</a></li>
+      <li>Lista em loja Y: <a href="#">Clique aqui</a></li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria de Fotos</h2>
+    <div class="gallery">
+      <img src="foto1.jpg" alt="Foto do casal">
+      <img src="foto2.jpg" alt="Foto do casal">
+      <img src="foto3.jpg" alt="Foto do casal">
+    </div>
+  </section>
+
+  <footer>
+    <p>Com amor, Anny & Leonardo ❤️</p>
+  </footer>
+</body>
+</html>
